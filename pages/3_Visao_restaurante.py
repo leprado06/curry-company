@@ -91,7 +91,7 @@ def traffic_time(df1):
     fig=px.sunburst(df1_aux,path=['City','Road_traffic_density'], values='Tempo_medio',color='std',color_continuous_scale='RdBu',color_continuous_midpoint=np.average(df1_aux['std']))
     return fig
 
-df = pd.read_csv(r"C:\Users\User\Documents\DS\FTC\dataset\train.csv")
+df = pd.read_csv("/train.csv")
 
 df1 = clean_code(df)
 
