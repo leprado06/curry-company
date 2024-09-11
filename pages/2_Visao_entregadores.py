@@ -67,7 +67,7 @@ def top_delivers(df1,top_asc):
     entregadores_lentos_city=pd.concat([df1_aux01,df1_aux02,df1_aux03]).reset_index(drop=True)
     return entregadores_lentos_city
 
-df = pd.read_csv("/train.csv")
+df = pd.read_csv("train.csv")
 
 df1 = clean_code(df)
 
