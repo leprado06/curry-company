@@ -99,7 +99,7 @@ def country_maps(df1):
     folium_static(map_,width=1024,height=600)
 
 
-df = pd.read_csv("/train.csv")
+df = pd.read_csv("train.csv")
 
 df1 = clean_code(df)
 
